@@ -1,0 +1,323 @@
+.designation {
+	display: block; /* Display on a new line */
+  }
+  
+  .review {
+	display: block; /* Display on a new line */
+  }
+  
+
+
+
+.testimonial {
+	display: flex;
+	flex-direction: column;
+	transition: transform 0.5s ease-in-out; /* Define the transition here */
+  }
+
+    .fade-in {
+    opacity: 0;
+    transition: opacity 0.5s ease-in;
+    }
+    
+    .fade-in.active {
+    opacity: 1;
+    }
+
+.testimonial-slider {
+	display: flex;
+	align-items: flex-start;
+	overflow: hidden; /* Add this to hide overflowing content */
+  }
+  
+  .left-div {
+    flex: 1;
+    padding-left: 20%;
+    
+  }
+  
+  
+  .right-content {
+	flex: 1;
+  padding-right: 20%;
+	min-height: 300px;
+	max-height: 600px;
+	display: flex; /* Add display: flex */
+	transition: transform 0.5s ease-in-out;
+  
+  justify-content: flex-start;
+  align-items: flex-start;
+  background-color: rgb(255, 255, 255);
+  }
+  
+  .testimonial {
+	padding: 20px;
+	
+	background-color: rgb(255, 255, 255);
+	margin: 10px;
+	border-radius: 5px;
+	width: 100%; 
+  text-align: left;
+  padding-left: 2%;/* Set width to 100% to prevent content from overflowing */
+  }
+  
+    .buttons {
+    display: flex;
+    border-radius: 100%;
+    justify-content: center;
+    }
+  
+  button {
+	
+  width: 40px; /* Equal width and height to make it circular */
+  height: 40px;
+  border-radius: 50%; 
+  font-family: 'Playfair Display', serif;
+  font-style:bold;
+  font-size: 1em;
+  bottom: 0;
+  }
+  
+  
+
+
+  .testimonial-img {
+    position: relative;
+    min-height: 400px;
+   
+    
+}
+
+
+
+.testimonial-img img {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    background-image:" src/img/app.imp";
+}
+
+.testimonial-img img:nth-child(1) {
+    top: 0;
+    left: 0;
+}
+
+.testimonial-img img:nth-child(2) {
+    top: 60%;
+    left: 20%;
+}
+
+.testimonial-img img:nth-child(3) {
+    top: 20%;
+    left: 60%;
+}
+
+.testimonial-img img:nth-child(4) {
+    bottom: 0;
+    right: 0;
+}
+
+.testimonial-img img .animated.pulse {
+    animation-duration: 2s;
+}
+
+.testimonial-carousel .owl-item img {
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+}
+
+.testimonial-carousel .owl-nav {
+    margin-top: 30px;
+    display: flex;
+}
+
+.testimonial-carousel .owl-nav .owl-prev,
+.testimonial-carousel .owl-nav .owl-next {
+    margin-right: 15px;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--secondary);
+    border-radius: 45px;
+    box-shadow: 0 0 45px rgba(0, 0, 0, .2);
+    font-size: 22px;
+    transition: .5s;
+}
+
+.testimonial-carousel .owl-nav .owl-prev:hover,
+.testimonial-carousel .owl-nav .owl-next:hover {
+    background: var(--secondary);
+    color: var(--dark);
+}
+
+
+.animated {
+	animation-duration: 1s;
+	animation-fill-mode: both;
+  }
+  
+  .animated.infinite {
+	animation-iteration-count: infinite;
+  }
+  
+  .animated.hinge {
+	animation-duration: 2s;
+  }
+  
+  .animated.flipOutX,
+  .animated.flipOutY,
+  .animated.bounceIn,
+  .animated.bounceOut {
+	animation-duration: .75s;
+  }
+
+  
+  @keyframes pulse {
+	from {
+	  transform: scale3d(1, 1, 1);
+	}
+  
+	50% {
+	  transform: scale3d(1.05, 1.05, 1.05);
+	}
+  
+	to {
+	  transform: scale3d(1, 1, 1);
+	}
+  }
+  
+  .pulse {
+	animation-name: pulse;
+  }
+
+
+
+  /*** Section Title ***/
+.section-title {
+    position: relative;
+    display: inline-block;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: green;
+    
+}
+.section-title1 {
+  position: relative;
+  display: inline-block;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: green;
+  text-align: left;
+  
+}
+
+.section-title::before {
+    position: absolute;
+    content: "";
+    width: calc(100% + 80px);
+    height: 2px;
+    top: 5px;
+    left: -40px;
+    background: var(--primary);
+    z-index: -1;
+}
+
+.section-title::after {
+    position: absolute;
+    content: "";
+    width: calc(100% + 120px);
+    height: 2px;
+    bottom: 6px;
+    left: -60px;
+    background: var(--primary);
+    z-index: -1;
+}
+
+.section-title.text-start::before {
+    width: calc(100% + 40px);
+    left: 0;
+}
+
+.section-title.text-start::after {
+    width: calc(100% + 60px);
+    left: 0;}
+
+
+.head1{
+  text-align: center;
+  
+  font-family: 'Playfair Display', serif;
+  color: rgb(67, 67, 67);
+  font-weight: 800;
+  font: bold;
+  text-align: left;
+}
+.head{
+  text-align: center;
+  
+  font-family: 'Playfair Display', serif;
+  color: rgb(67, 67, 67);
+  font-weight: 800;
+  font: bold;
+ 
+}
+
+.t1{
+  font-family: 'Playfair Display', serif;
+  color: gray;
+  text-align: left;
+}
+
+.im4{
+  padding-right: 10%;
+  padding-top: 4%;
+  padding-bottom: 4%;
+  background-image: url('/src/img/app.png');
+  background-size: 20% 25%;
+  background-repeat: no-repeat;
+  background-position: center;
+  
+   /* Optional, adjusts the background image size */
+    /* Add any additional CSS properties you need */
+}
+
+
+/* Example media query for tablets */
+@media only screen and (min-width: 600px) {
+  /* Styles for screens with a minimum width of 600px */
+  .testimonial-slider {
+    display: flex;
+  }
+
+
+}
+
+/* Example media query for mobile devices */
+@media only screen and (max-width: 880px) {
+  /* Styles for screens with a maximum width of 480px */
+  .testimonial-slider {
+    display: block;
+  }
+  .t1{
+    font-family: 'Playfair Display', serif;
+    color: gray;
+    text-align: center;
+  }
+
+  .head1{
+    text-align: center;
+  }
+  .section-title1{
+    text-align: center;
+  }
+  .left-div{
+    padding-left: 15%;
+  }
+  .right-content{
+    padding-left: 20%;
+  }
+}

@@ -1,0 +1,141 @@
+
+
+.nav {
+    z-index: 1000;
+    position: fixed;
+    left: 0;
+    height: 80px;
+    width: 100vw;
+    background-color: #008037;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    flex-wrap: wrap;
+    padding-top:0.5rem 0 0.5rem;
+    box-shadow: 2px 10px 10px #a3a0a084;
+    transition: background-color 0.3s ease;
+  }
+  
+  
+  
+  
+  .nav.scrolled {
+    background-color: rgb(11, 134, 11);
+  }
+  
+ 
+  .bold{
+    font-weight: bold;
+  }
+  .nav-button:hover {
+    background-color: rgb(255, 255, 255)
+  }
+  
+  .nav__list {
+    width: 100%;
+    font-size: 2rem;
+    list-style: none;
+    margin: 0;
+  }
+  
+  .nav__item {
+    padding: 0.5rem 2rem;
+    border-bottom: 1px solid #222;
+  }
+  
+  .nav__item-container {
+    margin-right: 3rem;
+  }
+  
+  .nav__item>a {
+    color: #fee1c7;
+    text-decoration: none;
+    transition: 0.3s;
+  }
+  
+  .nav__item>a:hover {
+    color:rgb(255, 255, 255);
+  }
+  
+  .nav__toggler {
+    opacity: 0.5;
+    cursor: pointer;
+  }
+  
+  .Nav-icon {
+    height: 60px;
+    width: 60px;
+    left: 10px;
+    position: relative;
+  }
+  
+  .nav--collapsible {
+    opacity: 1;
+    overflow: visible;
+  }
+
+  .toggle-button{
+    display: none;
+  }
+  
+ 
+@media screen and (min-width: 769px) {
+  /* Tablet version styles */
+  .navbar-button {
+    display: none;
+  }
+
+  .nav__list {
+    width: auto;
+    display: flex;
+    font-size: 1.5rem;
+  }
+
+ 
+
+  .nav {
+    flex-wrap: nowrap;
+  }
+
+  .nav__item {
+    border: 0;
+    font-size: 1.2rem;
+  }
+
+  .nav__item:hover {
+    border-bottom: rgb(14, 152, 14) 1px solid;
+    transition: all 0.3s;
+  }
+}
+
+/* Mobile version styles (max-width: 768px) */
+@media screen and (max-width: 768px) {
+
+ 
+
+  .nav__list {
+    width: 100%;
+    font-size: 2rem;
+    list-style: none;
+    margin: 0;
+    /* Other styles for the collapsible menu */
+  }
+
+  .nav__item-container {
+    margin-right: 0; /* Adjust margin or other styles for mobile */
+    display: none; /* Hide menu initially for mobile */
+  }
+
+  .toggle-button {
+    display: block; /* Show toggle button for mobile */
+    /* Other necessary styles for the toggle button */
+  }
+
+  /* Show/hide collapsible menu based on state for mobile */
+  .nav__item-container.open {
+    display: block;
+    width: 100%;
+    text-align: justify;
+    background-color: black;
+  }
+}

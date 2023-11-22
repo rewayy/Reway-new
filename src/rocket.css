@@ -1,0 +1,94 @@
+/* newcomponent.css */
+.new-component-container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: flex-end; /* Align content to the right */
+    background-color: #eae9e95c; /* Adjust background color as needed */
+  }
+
+  
+  .content-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Align text to the left */
+    width: 100%; /* Adjust the width of the text container as needed */
+    height: 100%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .rocket-image {
+    width: 75%;
+    max-width: 1460px; 
+    margin-bottom: 20px;
+    top: 190px;
+    left: 50%;
+    position: relative; 
+  }
+
+  .content-container .rocket-image{
+    height: 500px;
+  }
+
+  .rocket-txt{
+    bottom: 225px;
+    color: rgb(232, 100, 56);
+    position: relative;
+    font-size: 2rem;
+  }
+  
+  .rocket-image {
+    max-width: 100%;
+    height: auto; 
+    display: block; 
+  }
+  
+  @media (min-width:1024px) {
+      .rocket-image{
+       top: 35%;
+       width: 50%;
+       filter: brightness(0.91);
+      }
+
+    
+  .rocket-txt {
+      bottom: 200px;
+      left: 60px;
+      line-height: 60px;
+      font-weight: 600;
+      font-size: 44px;
+    }
+ .rocket-txt-blog{
+      bottom: 200px;
+      left: 60px;
+      position: relative;
+      line-height: 30px;
+      font-size: 28px;
+      color: #8fbd5d;
+      font-weight: bold;
+ }
+ 
+ .rocket-txt-blog:hover{
+  color: #5f7d3f;
+  cursor: pointer;
+ }
+
+    
+  }
+
+  @media (max-width:500px) {
+      .rocket-image{
+        top: 70%;
+        width: 85%;
+        left: 20%;
+      }
+
+      .rocket-txt{
+        padding-top: 160px;
+      }
+
+  }

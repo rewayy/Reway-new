@@ -1,0 +1,56 @@
+
+.blind-container{
+    display: flex;
+    padding: 0;
+    flex-direction: row;
+    height: 100vh;
+  }
+
+  .blinds h3{
+    top: 60px;
+    left: 10px;
+    color: rgb(255, 255, 255);
+    position: relative;
+  }
+  .blind{
+    background-color: #222222a4;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+ .section-3 p{
+  font-size: 1.4rem;
+  color: #f9f9f9;
+ }
+
+ .window-item{
+  padding: 0 1rem 0 2rem ;
+  height: 300px;
+  border-right: #868282bf solid 1px;
+ }
+
+ .section-3 h1{
+  font-size: 3rem;
+  color: #ffffffb1;
+ }
+
+ .blind:hover{
+  background-color: #9acd4c;
+  overflow: hidden;
+  transition: all 0.6s ;
+  .window-item{
+    transform: translateY(-65px);
+    transition: .3s ease-out;
+  }
+ }
+
+.video-wrapper .blinds h3{
+  text-align:left;
+}
+
+.section-3 .video-wrapper {
+
+    height: 83vh;
+}

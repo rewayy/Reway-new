@@ -17,9 +17,7 @@ function App() {
         <AboutUs />
         <NewComponent/>
         <Testimonial/>
-        <SimpleForm/> 
-     
-       
+        <SimpleForm/>    
         
       </main>
     </div>

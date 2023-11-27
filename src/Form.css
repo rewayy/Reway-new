@@ -17,14 +17,13 @@ body, html {
   align-items: center;
   padding: 5rem;
   width: 100%;
-  min-height: 100vh;
   min-width: 100vw;
 }
 
 h1 {
   font-size: 2rem;
   margin-bottom: 1rem;
-  color: #303030; /* Dark gray color */
+  color: #a4a3a3; 
 }
 
 .form-container {
@@ -99,7 +98,7 @@ button {
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s;
-  font-size: 1rem;
+  font-size: 20px;
   margin-top: 1rem;
   &:hover {
     background-color: #505050; /* Darker gray on hover */

@@ -8,6 +8,7 @@ import SimpleForm from "./Form";
 
 
 
+
 function App() {
   return (
     
@@ -18,6 +19,7 @@ function App() {
         <NewComponent/>
         <Testimonial/>
         <SimpleForm/> 
+        
      
        
         

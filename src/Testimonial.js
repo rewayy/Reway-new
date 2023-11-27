@@ -52,8 +52,7 @@ const TestimonialSlider = () => {
 
   return (
     <div>
-      <div className="fadeInUp">
-        <p className="section-title">Testimonial</p>
+      <div className="fadeInUp black">
         <h1 className="head">What People Say About <br/>  Our Reway Program </h1>
       </div>
 

@@ -2,11 +2,11 @@
 .new-component-container {
     position: relative;
     width: 100%;
-    height: 100vh;
+    height: 90vh;
     overflow: hidden;
     display: flex;
     justify-content: flex-end; /* Align content to the right */
-    background-color: #eae9e95c; /* Adjust background color as needed */
+    background-color: #000000; /* Adjust background color as needed */
   }
 
   
@@ -16,7 +16,7 @@
     flex-direction: column;
     align-items: flex-start; /* Align text to the left */
     width: 100%; /* Adjust the width of the text container as needed */
-    height: 100%;
+    height: 120%;
     margin: 0 auto;
     padding: 20px;
   }
@@ -36,9 +36,10 @@
 
   .rocket-txt{
     bottom: 225px;
-    color: rgb(232, 100, 56);
+    color: #FFD700;
     position: relative;
     font-size: 2rem;
+    top: 9%;
   }
   
   .rocket-image {
@@ -54,26 +55,38 @@
        filter: brightness(0.91);
       }
 
+      .rocket-gif {
+        max-width: 100%; /* Adjust the maximum width as needed */
+        height: auto;
+        left: 124%;
+        bottom: 30%;
+        position: relative;
+      }
+
     
   .rocket-txt {
       bottom: 200px;
-      left: 60px;
+      right: 5px;
       line-height: 60px;
       font-weight: 600;
       font-size: 44px;
     }
  .rocket-txt-blog{
       bottom: 200px;
-      left: 60px;
+      left: 185px;
+      bottom: 50%;
+      border: 1px solid #708090;
+      border-radius: 5px;
+      padding: 1rem;
       position: relative;
       line-height: 30px;
       font-size: 28px;
-      color: #8fbd5d;
+      color: #CCC;
       font-weight: bold;
  }
  
  .rocket-txt-blog:hover{
-  color: #5f7d3f;
+  color: #708090;
   cursor: pointer;
  }
 
@@ -88,7 +101,23 @@
       }
 
       .rocket-txt{
-        padding-top: 160px;
+        padding-top: 0;
       }
+      
+     .rocket-gif{
+      height: 247px;
+      position: relative;
+      bottom:77% ;
+      left: 0%;
+     }
+      
+     .rocket-txt-blog{
+      color: #CCC;
+      border: 1px solid #ccc;
+      padding: 2px;
+      bottom:28% ;
+      position: relative;
+      border-radius: 3px;
+     }
 
   }

@@ -1,94 +1,194 @@
-.download-app-page {
-  display: grid;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
-}
 
-.circle-container {
-  display: grid;
-  align-items: center;
-}
+  .download-app-page {
+    display: grid;
+    align-items: center;
+  
+    background-color: #CCC;
+    justify-content: center;
+    height: 80vh;
+  }
+  
+  
+  
+  .circle-container {
+    display: grid;
+    align-items: center;
+  }
+  
+  .download-app-page {
+    position: relative;
+  }
+  
+  /* Circular background style */
+  .circle-background {
+    position: absolute;
+    top: 10%; /* Adjust this value to position the circle properly */
+    left: 76%; /* Adjust this value to position the circle properly */
+    width: 38%;
+    height: 86%;
+    border-radius: 50%;
+    background-color: #46d43c; /* Green color */
+    z-index: 0;
+  }
+  
+  
+  .app-logo {
+  
+    padding-right: 30px;
+    margin-top: 120px;
+    width: 100%;
+    height: 310%;
+    z-index: 1;
+    text-align: right;
+    margin-right: 20px;
+  }
+  
+  .app-logo img{
+    max-width: 340px;
+    max-height: 530px; 
+  }
+  
+  .content {
+    margin-left: 20px;
+    color: black;
+  }
+  
+  .content h2 {
+    text-align: left;
+    margin-bottom: 100px;
+    font-size: 55px;
+    font-weight: bolder;
+  }
+  
+  .content h2 span{
+    color: #27c419;
+  }
+  
+  .sections {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr)); 
+    width: 55%;
+  }
+  
+  .section {
+    display: block;
+    text-align: left;
+    width:75%;
+    margin-bottom: 60px;
+  }
+  
+  .sections h3 {
+    text-align: center;
+    margin-right: 300px;
+    }
+  
+  .sections h3 span{
+    color: #61db56;
+    font-weight: bold;
+  }
+  
+  .google-play-badge {
+    text-align: left;
+    margin-top: 20px;
+    cursor: pointer;
+    z-index: 100;
+    right: 5%;
+    position: relative;
+  }
+  
+  .google-play-badge img{
+  width: 200px;
+  z-index: 10001;
+  }
+  
 
-.circle-gradient {
-  position: absolute;
-  left: 0;
-  width: 100%; 
-  height: 100%;
-}
+ 
 
-.animated-gradient {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  clip-path: circle(600px at right 800px);
-  background-size: 400%;
-}
 
-.app-logo {
-  position: absolute;
-  padding-right: 30px;
-  margin-top: 120px;
-  width: 90%;
-  height: 90%;
-  text-align: right;
-  margin-right: 20px;
-}
-
-.app-logo img{
-  max-width: 340px;
-  max-height: 530px; 
-}
-
-.content {
-  margin-left: 20px;
-}
-
-.content h2 {
-  text-align: left;
-  margin-bottom: 100px;
-  font-size: 55px;
-  font-weight: bolder;
-}
-
-.content h2 span{
-  color: #61db56;
-}
-
-.sections {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr)); 
-  width: 55%;
-}
-
-.section {
-  display: block;
-  text-align: left;
-  width:50%;
-  margin-bottom: 60px;
-}
-
-.sections h3 {
-  text-align: center;
-  margin-right: 300px;
+@media screen and (max-width:500px) {
+  .content h2{
+    font-size: 20px;
   }
 
-.sections h3 span{
-  color: #61db56;
-  font-weight: bold;
+  .app-logo img{
+    max-height: 211px;
+    position: relative;
+    top: -15%;
+    left: 5%;
+  }
+    
+
+  .container{
+    padding: 0;
+  }
+
+  .sections{
+    width: 90%;
+    
+  }
+
+  .main-heading{
+    padding-top: 50px;
+    width: 60%;
+  }
+  .section{
+    font-size: 10px;
+  }
+
+  .circle-background{
+    display: none;
+  }
+
+  .google-play-badge img{
+    width: 140px;
+    position: relative;
+    right: 7px;
+  }
 }
 
-.google-play-badge {
-  text-align: left;
-  margin-top: 20px;
-  cursor: pointer;
-  z-index: 10001;
-  position: relative;
+@media screen and (min-width:768px) {
+    .content h2{
+      font-size: 30px;
+    }
+
+    .section{
+      right: 100%;
+      bottom: 25%;
+      position: relative;
+    }
+
+    .app-logo img{
+      max-height: 430px;
+      position: relative;
+      bottom: 8%;
+    }
+
+    .google-play-badge img{
+      width: 164px;
+    }
 }
 
-.google-play-badge img{
-width: 200px;
-z-index: 10001;
+@media screen and (min-width:769px){
+  .content h2{
+    font-size: 50px;
+    padding-left: 39px;
+
+  }
+
+  .section{
+    right: 92%;
+    bottom: 25%;
+    position: relative;
+  }
+
+  .app-logo img{
+    max-height: 430px;
+    position: relative;
+    bottom: 6%;
+  }
+
+  .google-play-badge img{
+    width: 164px;
+  }
+
 }

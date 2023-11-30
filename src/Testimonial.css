@@ -6,7 +6,9 @@
 	display: block; /* Display on a new line */
   }
   
-
+body{
+  background-color: #000;
+}
 
 
 .testimonial {
@@ -28,6 +30,7 @@
 	display: flex;
 	align-items: flex-start;
 	overflow: hidden; /* Add this to hide overflowing content */
+  background-color: #000;
   }
   
   .left-div {
@@ -36,10 +39,12 @@
     
   }
   
+  .black{
+    background-color: #000;
+  }
   
   .right-content {
 	flex: 1;
-  padding-right: 20%;
 	min-height: 300px;
 	max-height: 600px;
 	display: flex; /* Add display: flex */
@@ -47,13 +52,13 @@
   
   justify-content: flex-start;
   align-items: flex-start;
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
   }
   
   .testimonial {
 	padding: 20px;
 	
-	background-color: rgb(255, 255, 255);
+	background-color: rgb(0, 0, 0);
 	margin: 10px;
 	border-radius: 5px;
 	width: 100%; 
@@ -197,14 +202,7 @@
 
 
   /*** Section Title ***/
-.section-title {
-    position: relative;
-    display: inline-block;
-    text-transform: uppercase;
-    font-weight: 600;
-    color: green;
-    
-}
+
 .section-title1 {
   position: relative;
   display: inline-block;
@@ -251,7 +249,7 @@
   text-align: center;
   
   font-family: 'Playfair Display', serif;
-  color: rgb(67, 67, 67);
+  color: #CCC;
   font-weight: 800;
   font: bold;
   text-align: left;
@@ -260,7 +258,7 @@
   text-align: center;
   
   font-family: 'Playfair Display', serif;
-  color: rgb(67, 67, 67);
+  color: #CCC;
   font-weight: 800;
   font: bold;
  
@@ -300,7 +298,11 @@
 @media only screen and (max-width: 880px) {
   /* Styles for screens with a maximum width of 480px */
   .testimonial-slider {
-    display: block;
+    display:block;
+  }
+
+  .left-div{
+    display: none;
   }
   .t1{
     font-family: 'Playfair Display', serif;
@@ -318,6 +320,6 @@
     padding-left: 15%;
   }
   .right-content{
-    padding-left: 20%;
+    padding-left: 10%;
   }
 }

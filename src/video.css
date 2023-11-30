@@ -1,0 +1,26 @@
+/* video.css */
+
+/* Video container */
+.video-container {
+    max-width: 1600px; /* Adjust as per your layout */
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  /* Video wrapper for responsiveness */
+  .video-wrapper {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio (adjust according to your video aspect ratio) */
+    height: 0;
+    overflow: hidden;
+  }
+  
+  /* Actual video element */
+  .responsive-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 175%;
+  }
+  

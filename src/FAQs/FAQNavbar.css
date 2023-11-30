@@ -1,13 +1,13 @@
 .faq-navbar {
   display: flex;
   justify-content: center;
-  margin-top: 20px; /* Adjust margin as needed */
+  margin-top: 20px; 
+  padding: 0 2rem;
 }
 
 .faq-navbar button {
   border: 1px solid rgb(43, 190, 104);
   border-radius: 20px;
-  padding: 10px 20px;
   margin: 0 5px;
   background-color: white;
   color: rgb(43, 190, 104);

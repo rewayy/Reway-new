@@ -11,11 +11,12 @@ class FCards extends Component{
         return (
 
                 <div className="container-fluid">
-                <div className="sdg-row">
-                    <div className="col-md-12">
+                      <div className="col-md-12">
                         <h2 className="sdg-title"> Sustainable Development Goals</h2>
-                        <h1 className="sdg-title-2"> Making A Difference,<br/> Together.</h1>
+                        <h1 className="sdg-title-2"> Making A Difference, Together.</h1>
                     </div>
+                <div className="sdg-row">
+                  
                     <div className="col-md-3">
                         <Cards cardId="1" imgsrc={sdg1} title="Responsible Consumption And Production"
                         para="Ensure sustainable consumption and production patterns." />

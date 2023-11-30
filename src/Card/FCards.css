@@ -2,18 +2,18 @@
     text-align: center;
     margin-top: 20px;
     margin-bottom: 30px;
-    font-size: 20px;
-    color: rgb(62, 170, 89); 
+    font-size: 45px;
+    color: #28a027; 
     font-weight: bold;
     padding: 10px; 
   }
 
   .sdg-title-2{
     text-align: center;
-    font-size: 45px;
+    font-size: 25px;
     font-weight: bolder;
     margin-bottom: 80px;
-    color: rgb(10, 11, 112);
+    color: #FFD700;
   }
   .container-fluid {
     padding: 0 15px; 
@@ -22,5 +22,15 @@
   .sdg-row {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
     justify-content: space-between;
+    padding-left: 4rem;
+  }
+
+
+  @media screen and (min-width:768px){
+      .sdg-row{
+        gap:40px;
+
+      }
   }

@@ -1,6 +1,6 @@
 import React from 'react';
 import './aboutus.css'; 
-import backgroundVideo from '../src/video.mp4'; 
+import backgroundVideo from '../src/video.mp4.mp4'; 
 
 
 function AboutUs() {

@@ -4,20 +4,16 @@ import './index.css';
 import App from './App';
 import Cards from './Card/FCards';
 import Navbar from './FAQs/FAQPage';
-import AppPage from './AppDownload/DownAppPage'
-import JourneySection from './OurJourney/Journey';
-import Timeline from './Timeline/timelinepage';
+
+
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <App />
-    <Cards />
-    <Navbar />
-    <AppPage/>
-    <JourneySection/>
-    <Timeline/>
+    
+    
   </React.StrictMode>
 );
 

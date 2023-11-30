@@ -26,10 +26,7 @@ function App() {
         <FCards/>
         <Testimonial/>
         <AppPage/>
-        <SimpleForm/> 
-        
-     
-       
+        <SimpleForm/>    
         
       </main>
     </div>

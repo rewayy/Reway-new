@@ -48,6 +48,8 @@
     display: block; 
   }
   
+
+  
   @media (min-width:1024px) {
       .rocket-image{
        top: 35%;
@@ -74,7 +76,7 @@
  .rocket-txt-blog{
       bottom: 200px;
       left: 185px;
-      bottom: 50%;
+      bottom: 38%;
       border: 1px solid #708090;
       border-radius: 5px;
       padding: 1rem;
@@ -93,6 +95,31 @@
     
   }
 
+
+  @media screen and (max-width:768px) {
+    .rocket-gif{
+      bottom: 60%;
+      left: 68%;
+      position: relative;
+      height: 250px;
+    }
+
+    .rocket-txt{
+        width: 58%;
+        top: -18%;      
+          }
+
+    .rocket-txt-blog{
+      color: #CCC;
+      position: relative;
+      border: 1px solid #ccc;
+      border-radius: 3px;
+      padding: 10px;
+      bottom: 70%;
+    }
+  }
+
+
   @media (max-width:500px) {
       .rocket-image{
         top: 70%;
@@ -102,10 +129,13 @@
 
       .rocket-txt{
         padding-top: 0;
+        width: 100%;
+        top: 10%;
+        font-size: 25px;
       }
       
      .rocket-gif{
-      height: 247px;
+      height: 240px;
       position: relative;
       bottom:77% ;
       left: 0%;

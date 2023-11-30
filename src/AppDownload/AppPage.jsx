@@ -13,9 +13,11 @@ const AppPage = () => {
 
   return (
     <div className="download-app-page">
+       
       <div className="circle-container">
         <div className="content">
-          <h2>Download The <span> Reway</span><br/>App, Now! </h2>
+        <div className="circle-background"></div>
+          <h2 className="main-heading">Download The <span> Reway</span><br/>App, Now! </h2>
           <div className="container">
             <div className="sections">
               <div className="section">
@@ -44,10 +46,7 @@ const AppPage = () => {
             </div>
           </div>
         </div>
-        <div className="circle-gradient">
-          <animated.div className="animated-gradient" style={{ ...gradientProps }}>
-          </animated.div>
-        </div>
+        
           <div className="app-logo">
             <img src={rewayphonelogo} alt="App Logo" />
           </div>

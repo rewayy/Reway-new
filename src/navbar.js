@@ -47,7 +47,7 @@ function Navbar() {
           <li className="nav__item"><a href="#">About</a></li>
           <li className="nav__item"><a href="#">Contact</a></li>
           <li className="nav__item"><a href="#">Blogs</a></li>
-          <li className="nav__item bold"><a href="#">E-Marketplace</a></li>
+          <li className="nav__item bold"><a href="#">E-Marketplace <br/><span>coming soon</span> </a></li>
         </ul>
       </div>
     </nav>

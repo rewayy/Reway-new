@@ -6,8 +6,7 @@ const JourneySection = () => {
   return (
     <div className="journey-section">
       <div className="journey-title">Our Journey. Our Inspiration.
-      <span className="after-element"></span>
-      <span className="after-element-2"></span>
+      
       </div>
       
       <img className="journey-img" src={journeyimg} alt="Monuments" />

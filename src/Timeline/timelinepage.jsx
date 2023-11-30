@@ -10,7 +10,7 @@ import {
 
 import "react-vertical-timeline-component/style.min.css";
 
-function timeline() {
+function Timeline() {
 
   return (
     <div>
@@ -39,4 +39,4 @@ function timeline() {
   );
 }
 
-export default timeline;
+export default Timeline;

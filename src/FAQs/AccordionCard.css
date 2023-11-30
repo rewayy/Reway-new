@@ -69,3 +69,23 @@
     font-size: 20px;
     font-weight: 450;
   }
+
+  @media screen and (max-width:500px) {
+    .accordion-card {
+   
+      margin: 23px;
+      padding: 23px;
+    }
+
+    .topic-name{
+      font-size: 20px;
+    }
+
+    .accordion-btn{
+      font-size: 15px;
+    }
+    .accordion-content{
+      font-size: 13px ;
+      margin: 0;
+    }
+  }

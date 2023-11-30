@@ -1,5 +1,5 @@
 
-let timelineElements = [
+let TimelineElements = [
   {
     id: 1,
     title: "Expedition in E-Waste Management commenced.",
@@ -51,4 +51,4 @@ let timelineElements = [
   },
 ];
 
-export default timelineElements;
+export default TimelineElements;

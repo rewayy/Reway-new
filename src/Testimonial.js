@@ -53,7 +53,7 @@ const TestimonialSlider = () => {
   return (
     <div>
       <div className="fadeInUp black">
-        <h1 className="head">What People Say About <br/>  Our Reway Program </h1>
+        <h1 className="head">What People Say About <br/> Reway </h1>
       </div>
 
       <div className="testimonial-slider">

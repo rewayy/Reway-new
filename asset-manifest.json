@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Reway-new/static/css/main.befbb111.css",
+    "main.js": "/Reway-new/static/js/main.5706e71d.js",
+    "static/js/787.56ada3ff.chunk.js": "/Reway-new/static/js/787.56ada3ff.chunk.js",
+    "static/media/Glitched out..mp4": "/Reway-new/static/media/Glitched out..8422fa9cd0caa8b72ae6.mp4",
+    "static/media/E_PRINT_17.jpg": "/Reway-new/static/media/E_PRINT_17.4428d881e846942e988c.jpg",
+    "static/media/video.mp4.mp4": "/Reway-new/static/media/video.mp4.7a6cb649a7193c9c4a45.mp4",
+    "static/media/E_PRINT_12.jpg": "/Reway-new/static/media/E_PRINT_12.5d9624f4ab1e0616f775.jpg",
+    "static/media/E_PRINT_15.jpg": "/Reway-new/static/media/E_PRINT_15.822f5593005bf6013aa1.jpg",
+    "static/media/Website Ilustration.png": "/Reway-new/static/media/Website Ilustration.5b4bbec8a4a055eea13a.png",
+    "static/media/Screenshot_2023-11-06-15-08-52-689_com.android.vending-removebg-preview-removebg-preview.png": "/Reway-new/static/media/Screenshot_2023-11-06-15-08-52-689_com.android.vending-removebg-preview-removebg-preview.78b6d96464c9b2b8e737.png",
+    "static/media/E_WEB_13.png": "/Reway-new/static/media/E_WEB_13.a5a81d4d076ace73c0f7.png",
+    "static/media/india.png": "/Reway-new/static/media/india.cfad62b7af56b956176f.png",
+    "static/media/R (1).png": "/Reway-new/static/media/R (1).ca3f2ed8e35341126b15.png",
+    "index.html": "/Reway-new/index.html",
+    "main.befbb111.css.map": "/Reway-new/static/css/main.befbb111.css.map",
+    "main.5706e71d.js.map": "/Reway-new/static/js/main.5706e71d.js.map",
+    "787.56ada3ff.chunk.js.map": "/Reway-new/static/js/787.56ada3ff.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.befbb111.css",
+    "static/js/main.5706e71d.js"
+  ]
+}

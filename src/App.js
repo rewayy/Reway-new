@@ -20,10 +20,10 @@ function App() {
         <Navbar/>
         <AboutUs />
         <JourneySection/>
-        <Video/>
         <NewComponent/>
-        <Timeline/>
         <FCards/>
+        <Video/>
+        <Timeline/>
         <Testimonial/>
         <AppPage/>
         <SimpleForm/>    

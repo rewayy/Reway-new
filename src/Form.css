@@ -20,11 +20,13 @@ body, html {
   min-width: 100vw;
 }
 
-h1 {
-  font-size: 2rem;
+.container h1 {
+  font-size: 3rem;
   margin-bottom: 1rem;
-  color: #a4a3a3; 
+  color: #FFD700; 
 }
+
+
 
 .form-container {
   display: flex;

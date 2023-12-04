@@ -51,7 +51,7 @@ const SimpleForm = () => {
 
   return (
     <div className="container">
-      <h1>Contact US</h1>
+      <h1>Contact Us</h1>
       
       
       <div className="form-container">

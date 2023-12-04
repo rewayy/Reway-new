@@ -11,6 +11,9 @@ function NewComponent() {
           <p className="rocket-txt">
             At Reway, innovation thrives every day, breathing life into fresh ideas.
           </p>
+          <p className="rocket-txt-small">
+          Our team continuously explores new horizons, pushing boundaries to create a sustainable and inclusive impact in the E-Waste Management ecosystem
+          </p>
           <img src={gifUrl} alt="Rocket GIF" className="rocket-gif" />
           <a className='rocket-txt-blog'>
             To know more <br />

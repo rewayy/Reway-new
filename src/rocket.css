@@ -42,6 +42,7 @@
     top: 9%;
   }
   
+ 
   .rocket-image {
     max-width: 100%;
     height: auto; 
@@ -60,9 +61,16 @@
       .rocket-gif {
         max-width: 100%; /* Adjust the maximum width as needed */
         height: auto;
-        left: 124%;
+        left: 104%;
         bottom: 30%;
         position: relative;
+      }
+
+      .rocket-txt-small{
+        font-size: 20px;
+        color: #CCC;
+        position: relative;
+        top:10%;
       }
 
     
@@ -75,8 +83,8 @@
     }
  .rocket-txt-blog{
       bottom: 200px;
-      left: 185px;
-      bottom: 38%;
+      left: 186px;
+      bottom: 55%;
       border: 1px solid #708090;
       border-radius: 5px;
       padding: 1rem;

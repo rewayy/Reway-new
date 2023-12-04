@@ -10,7 +10,7 @@ const JourneySection = () => {
       </div>
       
       <img className="journey-img" src={journeyimg} alt="Monuments" />
-      <div className="journey-content">
+      <div className="journey-content ">
         <p>In a nation burdened by the mounting E-Waste crisis, a group of young and <br/> innovative tech visionaries embarked on a mission to revolutionise the eWaste landscape.
         </p>
         <h4>

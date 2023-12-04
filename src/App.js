@@ -10,6 +10,8 @@ import JourneySection from './OurJourney/Journey.jsx';
 import AppPage from './AppDownload/AppPage.jsx';
 import FCards from './Card/FCards.jsx';
 import Video from './video.js';
+import Footer from './footer/footer.js';
+
 
 
 function App() {
@@ -18,6 +20,7 @@ function App() {
     <div className="App">
       <main>
         <Navbar/>
+       
         <AboutUs />
         <JourneySection/>
         <Video/>
@@ -26,7 +29,8 @@ function App() {
         <FCards/>
         <Testimonial/>
         <AppPage/>
-        <SimpleForm/>    
+        <SimpleForm/>  
+        <Footer/>  
         
       </main>
     </div>

@@ -2,7 +2,7 @@
 .new-component-container {
     position: relative;
     width: 100%;
-    height: 90vh;
+    height: 93vh;
     overflow: hidden;
     display: flex;
     justify-content: flex-end; /* Align content to the right */

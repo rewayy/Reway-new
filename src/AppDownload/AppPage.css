@@ -2,8 +2,8 @@
   .download-app-page {
     display: grid;
     align-items: center;
-  
-    background-color: #CCC;
+    margin-top: 9rem;
+    background-color: #000;
     justify-content: center;
     height: 80vh;
   }
@@ -22,8 +22,8 @@
   /* Circular background style */
   .circle-background {
     position: absolute;
-    top: 10%; /* Adjust this value to position the circle properly */
-    left: 76%; /* Adjust this value to position the circle properly */
+    top: -5%; /* Adjust this value to position the circle properly */
+    left: 82%; /* Adjust this value to position the circle properly */
     width: 38%;
     height: 86%;
     border-radius: 50%;
@@ -50,7 +50,7 @@
   
   .content {
     margin-left: 20px;
-    color: black;
+    color: rgb(255, 255, 255);
   }
   
   .content h2 {
@@ -171,18 +171,18 @@
 @media screen and (min-width:769px){
   .content h2{
     font-size: 50px;
-    padding-left: 39px;
+    padding-left: 155px;
 
   }
 
   .section{
-    right: 92%;
+    right: 50%;
     bottom: 25%;
     position: relative;
   }
 
   .app-logo img{
-    max-height: 430px;
+    max-height: 480px;
     position: relative;
     bottom: 6%;
   }

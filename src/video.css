@@ -1,27 +1,37 @@
-/* video.css */
+.video-wrapper {
+  position: relative;
+  display: flex;
+  flex-direction: row;
 
-/* Video container */
-.video-container {
-    max-width: 1600px; /* Adjust as per your layout */
-    margin: 0 auto;
-    text-align: center;
-  }
-  
-  /* Video wrapper for responsiveness */
-  .video-wrapper {
-    position: relative;
-    padding-bottom: 56.25%; /* 16:9 aspect ratio (adjust according to your video aspect ratio) */
-    height: 0;
-    overflow: hidden;
-  }
-  
-  /* Actual video element */
-  .responsive-video {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    align-self: center;
-  }
-  
+}
+
+.responsive-video {
+  width: 100%;
+  position: relative;
+  left: 6%;
+  height: 80vh;
+}
+
+.play-button-overlay {
+  position: absolute;
+  top: 50%;
+  left: 80%;
+  transform: translate(-50%, -50%);
+}
+
+.play-button {
+  width: 100px; /* Adjust size as needed */
+  height: auto; /* Maintain aspect ratio */
+  cursor: pointer;
+}
+
+
+.heading-video{
+  color: #FFD700;
+  font-size: 4.5em;
+  width: 51rem;
+  line-height: 6rem;
+  padding-top: 8rem;
+  padding-left: 2.8rem;
+  font-weight: 600;
+}

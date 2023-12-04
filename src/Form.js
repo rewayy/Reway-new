@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 import emailjs from "emailjs-com";
 import "./Form.css"; // Import the CSS file
-import india from  "../src/india.png";
+import india from  "../src/indiaaa.png";
 
 const SimpleForm = () => {
   const [formData, setFormData] = useState({

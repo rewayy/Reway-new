@@ -51,7 +51,7 @@ const TestimonialSlider = () => {
   }, [activeIndex]);
 
   return (
-    <div>
+    <div className='testimonial-container'>
       <div className="fadeInUp black">
         <h1 className="head">What People Say About <br/> Reway </h1>
       </div>

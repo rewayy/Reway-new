@@ -22,7 +22,7 @@ function AboutUs() {
           We are committed to leading the world towards a cleaner and sustainable future. 
           </p>
           <a className="explore">
-            View Services
+            View Marketplace
           </a>
         </div>
       </div>

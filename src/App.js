@@ -26,8 +26,8 @@ function App() {
         <NewComponent/>
         <FCards/>
         <Video/>
-        <Timeline/>
         <Testimonial/>
+        <Timeline/>
         <AppPage/>
         <SimpleForm/>  
         <Footer/>  

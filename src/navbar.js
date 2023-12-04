@@ -50,7 +50,7 @@ function Navbar() {
           <li className="nav__item"><a href="#">About</a></li>
           <li className="nav__item"><a href="#">Contact</a></li>
           <li className="nav__item"><a href="#">Blogs</a></li>
-          <li className="nav__item bold"><a href="src/comingsoon.js">E-Marketplace <br/><span>coming soon</span> </a></li>
+          <li className="nav__item bold"><a href="src/comingsoon.js">E-Marketplace  </a></li>
         </ul>
       </div>
     </nav>

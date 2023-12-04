@@ -17,6 +17,7 @@ const SimpleForm = () => {
     setFormData({ ...formData, [name]: value });
   };
 
+
   const handleSubmit = (e) => {
     e.preventDefault();
 

@@ -11,6 +11,7 @@ import AppPage from './AppDownload/AppPage.jsx';
 import FCards from './Card/FCards.jsx';
 import Video from './video.js';
 import Footer from './footer/footer.js';
+import ContactBar from './Fixed contact bar/fixedcont.js';
 
 
 
@@ -20,7 +21,7 @@ function App() {
     <div className="App">
       <main>
         <Navbar/>
-       
+        <ContactBar/>
         <AboutUs />
         <JourneySection/>
         <NewComponent/>

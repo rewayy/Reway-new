@@ -1,8 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import '../src/navbar.css';
 import iconImage from './R (1).png';
-import { HashLink } from 'react-router-hash-link';
-import { NavHashLink } from 'react-router-hash-link';
+
 
 
 function Navbar() {

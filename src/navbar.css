@@ -6,7 +6,7 @@
     left: 0;
     height: 60px;
     width: 100vw;
-    background-color: #1bb760;
+    background-color: #008037;
     display: flex;
     align-items: center;
     justify-content:space-between;
@@ -62,7 +62,7 @@
   }
   
   .nav__item>a {
-    color: rgb(48, 47, 47);
+    color: rgb(251, 251, 251);
     text-decoration: none;
     transition: 0.3s;
   }

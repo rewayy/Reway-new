@@ -1546,37 +1546,3 @@ video {
 }
 
 
-
-/*-------------------------------------------Fixed-contact-bar------------------------------*/
-
-.fixed-cont-bar{
-  display: flex;
-  z-index: 500;
-  flex-direction: column;
-
-}
-
-.sc-ul{
-  list-style: none;
-  border: 5px solid #008037;
-  border-radius: 5px;
-  border-left: 0;
-  background-color: #ffffffc8;
-  width: 50px;
-  padding: 0;
- z-index: 500;
-  left: 0;
-  top: 70%;
-  position: fixed;
-  text-align: center;
-}
-
-.sc-list{
-  border-bottom: 3px solid #9ACD4C;
-  height: 50px;
-  font-size: 2rem;
-}
-
-a{
-  text-decoration: none;
-}

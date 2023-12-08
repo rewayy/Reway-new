@@ -1,4 +1,5 @@
 import React from 'react';
+import '../Fixed contact bar/fixedcont.css';
 import whatsappIcon from '../icons8-whatsapp-48.png';
 import phoneIcon from '../icons8-phone-48.png';
 import gmailIcon from '../icons8-gmail.svg';

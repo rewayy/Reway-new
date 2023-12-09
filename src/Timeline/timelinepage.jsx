@@ -1,5 +1,6 @@
 import React from 'react';
 import './timelinepage.css';
+import '../Timeline/style.min.css';
 import RecyclingRoundedIcon from '@mui/icons-material/RecyclingRounded';
 import timelineElements from "./timelineElement";
 

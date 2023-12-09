@@ -24,13 +24,20 @@
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 20px;
     justify-content: space-between;
-    padding-left: 4rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
   }
 
 
   @media screen and (min-width:768px){
       .sdg-row{
         gap:40px;
-
+       
       }
+  }
+
+  @media screen and (max-width:500px) {
+    .sdg-row{
+      padding-right: 0;
+    }
   }

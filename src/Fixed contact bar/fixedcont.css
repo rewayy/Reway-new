@@ -8,7 +8,7 @@
   
   .sc-ul{
     list-style: none;
-    border: 5px solid #ffffff;
+    border: 2px solid #6e6d6d;
     border-radius: 5px;
     border-left: 0;
     background-color: #000000;
@@ -22,11 +22,20 @@
   }
   
   .sc-list{
-    border-bottom: 3px solid rgb(255, 255, 255);
-    height: 50px;
+    border-bottom: 1px solid rgb(108, 106, 106);
+    height: 60px;
     font-size: 2rem;
   }
   
   a{
     text-decoration: none;
+  }
+
+
+  .iconn{
+    height: 45px;
+    padding-left: 2px;
+    padding-top: 5px;
+
+    display: block;
   }

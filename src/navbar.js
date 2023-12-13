@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import '../src/navbar.css';
 import iconImage from './R (1).png';
-
+import {HashLink as Link} from 'react-router-hash-link';
 
 
 function Navbar() {
@@ -45,11 +45,29 @@ function Navbar() {
       </div>
       <div className="nav__item-container">
         <ul className="nav__list collapsible__content nav--collapsible">
-          <li className="nav__item"><a href="#">Home</a></li>
-          <li className="nav__item"><a href="#">About</a></li>
-          <li className="nav__item"><a href="#">Contact</a></li>
-          <li className="nav__item"><a href="#">Blogs</a></li>
-          <li className="nav__item bold"><a href="src/comingsoon.js">E-Marketplace  </a></li>
+          <li className="nav__item">
+            <Link to="#home" smooth={true} duration={500}>
+              Home
+            </Link>
+          </li>
+          <li className="nav__item">
+            <Link to="#aboutUs" smooth>
+              About
+            </Link>
+          </li>
+          <li className="nav__item">
+            <Link to="#contact" smooth={true} duration={500}>
+              Contact
+            </Link>
+          </li>
+          <li className="nav__item">
+            <Link to="#blogs" smooth={true} duration={500}>
+              Blogs
+            </Link>
+          </li>
+          <li className="nav__item bold">
+            <a href="src/comingsoon.js">E-Marketplace</a>
+          </li>
         </ul>
       </div>
     </nav>

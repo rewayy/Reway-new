@@ -1,37 +1,65 @@
+ .video-container {
+  display: flex;
+  justify-content: center;
+}
+
+
 .video-wrapper {
-  position: relative;
   display: flex;
   flex-direction: row;
-
+  max-width: 1200px; /* Set a maximum width for the wrapper */
 }
+
+
+.heading-video {
+  flex: 1; /* The heading takes up the available space on the left */
+  color: #FFD700;
+  font-size: 4.5em;
+  line-height: 6rem;
+  font-weight: 600;
+  margin-right: 30px; /* Add some margin to separate the heading from the video */
+}
+
+
+.responsive-video-container {
+  position: relative;
+  overflow: hidden;
+  width: 50%; /* Adjust width as needed */
+}
+
 
 .responsive-video {
-  width: 100%;
-  position: relative;
-  left: 6%;
-  height: 80vh;
+  width: 100%; /* Adjust width as needed */
+  height: 0;
+  padding-bottom: 56.25%; /* 16:9 aspect ratio */
+  position: absolute;
+  top: 0;
+  right: -20%; /* Position the video on the right side */
+  transition: opacity 0.5s ease-in-out;
+  opacity: 1;
 }
+
+
+.responsive-video.playing {
+  opacity: 0;
+}
+
+
+
 
 .play-button-overlay {
   position: absolute;
   top: 50%;
-  left: 80%;
+  left: 50%;
   transform: translate(-50%, -50%);
 }
 
-.play-button {
-  width: 100px; /* Adjust size as needed */
-  height: auto; /* Maintain aspect ratio */
-  cursor: pointer;
+.video-heading{
+  right: 0;
 }
 
-
-.heading-video{
-  color: #FFD700;
-  font-size: 4.5em;
-  width: 51rem;
-  line-height: 6rem;
-  padding-top: 8rem;
-  padding-left: 2.8rem;
-  font-weight: 600;
+.play-button {
+  width: 100px;
+  height: auto;
+  cursor: pointer;
 }

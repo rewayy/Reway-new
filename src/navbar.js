@@ -45,7 +45,7 @@ function Navbar() {
       </div>
       <div className="nav__item-container">
         <ul className="nav__list collapsible__content nav--collapsible">
-          <li className="nav__item"><a href="#">Home</a></li>
+          <li className="nav__item"><a href="">Home</a></li>
           <li className="nav__item"><a href="#">About</a></li>
           <li className="nav__item"><a href="#">Contact</a></li>
           <li className="nav__item"><a href="#">Blogs</a></li>

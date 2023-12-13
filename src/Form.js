@@ -1,7 +1,7 @@
 // SimpleForm.js
 import React, { useState } from "react";
 import emailjs from "emailjs-com";
-import "./Form.css"; // Import the CSS file
+import "./Form.css";
 import india from  "../src/indiaaa.png.png";
 
 const SimpleForm = () => {
@@ -141,11 +141,8 @@ const SimpleForm = () => {
         <button type="submit">Submit</button>
       </form>
       </div>
-          </div>
-
-
-
       </div>
+     </div>
     </div>
   );
 };

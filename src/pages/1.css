@@ -1,0 +1,105 @@
+/* Article.css */
+
+.article-container {
+  
+ 
+  margin: 0 auto;
+  padding: 40px;
+  
+  
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.article-title {
+ 
+  font-size: 2.5em;
+  margin-bottom: 15px;
+  color: #333;
+  position: absolute;
+  bottom:10px;  
+  border-top-right-radius: 10px ;
+  border-bottom-left-radius: 10px; 
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.article-meta {
+  color: #666;
+  font-size: 0.9em;
+  margin-bottom: 20px;
+}
+
+.article-cover {
+  /* Added relative positioning */
+  width: 100%;
+  max-height: 500px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 25px;
+  border-bottom-right-radius: 0px;
+  
+}
+
+.article-content {
+  line-height: 1.8;
+  color: #333;
+  font-size: 1.2em;
+  max-width: 800px;
+  margin: 0 auto;
+ 
+ 
+}
+
+.article-content p {
+  margin-bottom: 20px;
+}
+
+.article-content a {
+  color: #007bff;
+  text-decoration: none;
+  border-bottom: 1px solid #007bff;
+  transition: border-bottom 0.3s ease;
+}
+
+.article-content a:hover {
+  border-bottom: 1px solid transparent;
+}
+
+
+.article-content p {
+  margin-bottom: 15px;
+}
+
+.article-content a {
+  color: #007bff;
+  text-decoration: none;
+  border-bottom: 1px solid #007bff;
+  transition: border-bottom 0.3s ease;
+}
+
+.article-content a:hover {
+  border-bottom: 1px solid transparent;
+}
+
+/* Optional: Add a subtle border to the container */
+.article-container::after {
+  content: '';
+  display: block;
+  clear: both;
+  border-bottom: 1px solid #ddd;
+  margin-top: 20px;
+}
+.article-cover1{
+  
+  position: relative;
+  
+}
+.article-conatiner2{
+ margin-left: 20%;
+ margin-right: 20%;
+ box-shadow: 16px -16px 16px rgba(0, 0, 0, 0.2), inset 0px 0px 50px rgba(255, 255, 255, 0.2);
+ 
+ border-top-right-radius: 10px;
+ border-bottom-right-radius: 10px;
+}

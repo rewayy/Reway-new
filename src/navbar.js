@@ -1,8 +1,8 @@
+// Navbar.js
 import React, { useState, useEffect } from 'react';
 import '../src/navbar.css';
 import iconImage from './R (1).png';
-import {HashLink as Link} from 'react-router-hash-link';
-
+import { Link } from "react-router-dom";
 
 function Navbar() {
   const [scrolled, setScrolled] = useState(false);
@@ -30,7 +30,7 @@ function Navbar() {
 
   return (
     <nav className={`nav ${scrolled ? 'scrolled' : ''}`}>
-      <a href="#">
+      <a href="/">
         <img className="Nav-icon" src={iconImage} alt="" />
       </a>
       <div className="navbar-button" onClick={toggleNavMenu}>
@@ -61,9 +61,7 @@ function Navbar() {
             </Link>
           </li>
           <li className="nav__item">
-            <Link to="#blogs" smooth={true} duration={500}>
-              Blogs
-            </Link>
+            <Link to="/blogs">Blogs</Link>
           </li>
           <li className="nav__item bold">
             <a href="src/comingsoon.js">E-Marketplace</a>

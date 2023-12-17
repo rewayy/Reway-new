@@ -1,0 +1,70 @@
+/* src/components/BlogPost.css */
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+  margin: 50px;
+  flex-wrap: wrap;
+}
+
+.box {
+  text-align: center;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: #ffffff69;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  transition: transform 0.5s ease;
+}
+
+.image_c {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.box_p {
+  max-width: 300px;
+  min-width: 300px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  transition: transform 0.5s ease;
+  margin: 10px;
+  text-decoration: none;
+  color: inherit;
+}
+.box_p h2{
+  font-weight: 600  ;
+}
+
+.box_p:hover {
+  transform: scale(1.15);
+}
+
+.heading {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.paragraph {
+  font-size: 1rem;
+  margin: 10px 0;
+}
+
+.link {
+  color: inherit;
+  text-decoration: inherit;
+  cursor: pointer;
+}
+/* src/components/BlogPost.css */
+.container {
+  padding-top: 20px; /* Add some padding to the top of the container to separate content from Navbar */
+}
+

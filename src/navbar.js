@@ -61,7 +61,9 @@ function Navbar() {
             </Link>
           </li>
           <li className="nav__item">
-            <Link to="/blogs">Blogs</Link>
+            <Link to="#blogs" smooth={true} duration={500}>
+              Blogs
+            </Link>
           </li>
           <li className="nav__item bold">
             <a href="src/comingsoon.js">E-Marketplace</a>

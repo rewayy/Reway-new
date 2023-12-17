@@ -61,7 +61,7 @@ function Navbar() {
             </Link>
           </li>
           <li className="nav__item">
-            <Link to="#blogs" smooth={true} duration={500}>
+            <Link to="/blogs" smooth={true} duration={500}>
               Blogs
             </Link>
           </li>
